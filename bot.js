@@ -12,7 +12,7 @@ var prefix = "+";
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id == 355101114024329227) return;
+  if (message.author.id == 410835593451405312) return;
 
 
 if (message.content.startsWith(prefix + 'playing')) {
