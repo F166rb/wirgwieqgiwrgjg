@@ -23,7 +23,7 @@ client.user.setGame(argresult);
 
 
 if (message.content.startsWith(prefix + 'streem')) {
-if (message.author.id !== '355101114024329227') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '461348142424522752') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setGame(argresult, "https://www.twitch.tv/v5bz");
     message.channel.sendMessage(`**${argresult}** :تم تغيير الحالة الى ستريمنج`)
 } else
